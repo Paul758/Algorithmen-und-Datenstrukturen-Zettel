@@ -122,7 +122,7 @@ public class SearchTools {
         }
     }
 
-    //Blatt 04 AUfgabe 1c)
+    //Blatt 04 Aufgabe 1c)
     public static int binSearchNew(int[] A, int x, int l, int r){
         if(l > r){
             return -1;
@@ -136,11 +136,11 @@ public class SearchTools {
             if (A[mid] == x) {
                 return mid;
             } else if (x < A[q1]) {
-                return binSearchNew(A,x,l,q1 - 1);
+                return binSearchNew(A, x, l, q1 - 1);
             } else if (x > A[q2]){
-                return binSearchNew(A,x,q2 + 1,r);
+                return binSearchNew(A, x, q2 + 1, r);
             } else {
-                return binSearchNew(A,x,q1 ,q2);
+                return binSearchNew(A, x, q1, q2);
             }
         }
     }
