@@ -42,6 +42,7 @@ public class SearchTools {
             }
         }
     }
+    
     private static void startMeasures(int[] array, int measurements, SearchAlgorithms algorithm, SearchMode searchMode) {
         int sum = 0;
         long startTime = 0;
@@ -144,7 +145,6 @@ public class SearchTools {
             }
         }
     }
-
 }
 
 
@@ -224,4 +224,4 @@ Elements: 100000000
 Elements: 685154321
     [Measured Time: 24500]
 
- */
+*/
