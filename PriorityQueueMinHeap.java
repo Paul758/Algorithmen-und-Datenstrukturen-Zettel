@@ -3,11 +3,7 @@ import java.util.ArrayList;
 public class  PriorityQueueMinHeap<K extends Comparable<K>> implements PriorityQueue<K> {
 
     ArrayList<K> a = new ArrayList<K>();
-
-    public static <K extends Comparable<K>> void main(String[] args) throws KeyIsNotValidException {
-
-    }
-
+    
     //Für Tests
     public PriorityQueueMinHeap(ArrayList<K> list){
         this.a = list;
@@ -15,7 +11,6 @@ public class  PriorityQueueMinHeap<K extends Comparable<K>> implements PriorityQ
     public PriorityQueueMinHeap(){
 
     }
-
 
     @Override
     public void addElement(K elem) throws KeyIsNotValidException {
